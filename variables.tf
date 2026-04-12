@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "app_name" {
   description = "Application name used for resource naming"
   type        = string
-  default     = "hello-world"
+  default     = "gtiapp"
 }
 
 variable "github_owner" {
